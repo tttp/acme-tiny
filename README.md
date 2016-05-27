@@ -165,7 +165,7 @@ server {
 If you haven't already one on your server, you need to generate the dhparam file
 ```sh
 dhparam -out server.dhparam 2048
-
+```
 ### Step 6: Setup an auto-renew cronjob
 
 Congrats! Your website is now using https! Unfortunately, Let's Encrypt
